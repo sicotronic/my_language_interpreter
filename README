@@ -1,0 +1,7 @@
+This program is an interpreter/compiler for my own imperative language. The entire project was made in Haskell.
+I've presented this implementation as the final project of the subject "Programming Languages and Compilers" when I was studying at College.
+The following is a simple example of the syntax of the language and the usage of the interpreter/compiler:
+
+main "catch l in fail l; newvar y:=23 {! y} with newvar x:=0 { while x<7 do x:=x+1; ! x od; if not (false => true) then newvar y:=0 { for y:=0 to 6 do ! y od } else skip fi }"
+
+
